@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { View } from '@tarojs/components'
+import { AtButton } from 'taro-ui'
 
 class Index extends Component {
   // 可以使用所有的 React 组件方法
@@ -24,7 +25,7 @@ class Index extends Component {
   render () {
     return (
       <View className='index'>
-        {'index'}
+        <AtButton type='primary'>按钮文案</AtButton>
       </View>
     )
   }

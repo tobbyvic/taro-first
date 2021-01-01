@@ -24,7 +24,7 @@ class Index extends Component {
   render () {
     return (
       <View className='index'>
-        {'index'}
+        {'rate'}
       </View>
     )
   }

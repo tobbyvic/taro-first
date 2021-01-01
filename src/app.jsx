@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-
+// app.js
+import 'taro-ui/dist/style/index.scss' // 全局引入一次即可
 // 假设我们要使用 Redux
 import { Provider } from 'react-redux'
 import configStore from './store'
