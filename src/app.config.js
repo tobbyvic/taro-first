@@ -1,7 +1,7 @@
 export default {
   pages: [
-    'pages/rate/rate',
     'pages/amount/amount',
+    'pages/rate/rate',
     'pages/support/support'
   ],
   tabBar: {
